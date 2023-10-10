@@ -34,6 +34,14 @@ public abstract class Machine {
         this.outputs = outputData;
     }
 
+    public BitSet getInputs() {
+        return inputs;
+    }
+
+    public BitSet getOutputs() {
+        return outputs;
+    }
+
     public void setRunning(boolean running) {
         this.running = running;
     }
